@@ -19,7 +19,7 @@ authRouter.post("/register", authController.registerUserController)
  */
 authRouter.post("/login", authController.loginUserController)
 
-
+// BLACKLIST TOKEN
 /**
  * @route GET /api/auth/logout
  * @description clear token from user cookie and add the token in blacklist

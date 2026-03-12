@@ -1,6 +1,8 @@
 const mongoose = require('mongoose')
 
 
+// KEEP USER TOKENS BLACKLISTED AFTER LOGOUT
+
 const blacklistTokenSchema = new mongoose.Schema({
     token: {
         type: String,
